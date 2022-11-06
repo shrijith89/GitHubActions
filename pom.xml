@@ -42,6 +42,7 @@
 
 
 	</dependencies>
+	<name>Demo</name>
 	
 	<build>
     <plugins>

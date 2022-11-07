@@ -1,5 +1,7 @@
 package com.demo;
 
+import java.awt.Robot;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
@@ -18,7 +20,7 @@ public class Demo {
 	}
 	
 	@Test
-	public void demo() {
+	public void demo() throws Exception {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
 		System.out.println(driver.getTitle());

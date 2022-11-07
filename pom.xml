@@ -39,7 +39,7 @@
 						<id>execution</id>
 						<phase>verify</phase>
 						<goals>
-<goal>test</goal>
+<goal>generate</goal>
 </goals>
 					</execution>
 				</executions>

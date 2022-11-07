@@ -26,23 +26,9 @@
 				<version>2.22.2</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>net.masterthought</groupId>
-				<artifactId>maven-cucumber-reporting</artifactId>
-				<version>3.0.0</version>
-				<executions>
-					<execution>
-						<id>execution</id>
-						<phase>verify</phase>
-						<goals>
-<goal>generate</goal>
-</goals>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>

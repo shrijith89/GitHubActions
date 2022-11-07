@@ -38,9 +38,6 @@
 					<execution>
 						<id>execution</id>
 						<phase>verify</phase>
-						<goals>
-							<goal>generate</goal>
-						</goals>
 					</execution>
 				</executions>
 			</plugin>

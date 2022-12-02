@@ -25,5 +25,6 @@ public class Demo {
 		driver.get("https://www.google.com");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getTitle().equals("Google"));
+		System.out.println("Completed Demo Execution");
 	}
 }
